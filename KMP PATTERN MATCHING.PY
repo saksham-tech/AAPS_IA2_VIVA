@@ -24,3 +24,4 @@ def kmp_search(text, pattern):
     return False
 
 print(kmp_search("abxabcabcaby", "abcaby"))  # True
+#Time Complexity: O(N + M)
