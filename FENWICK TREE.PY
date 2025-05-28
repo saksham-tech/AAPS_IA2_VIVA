@@ -19,3 +19,5 @@ ft = FenwickTree(len(arr))
 for i, val in enumerate(arr):
     ft.update(i+1, val)
 print(ft.query(5))  # 15
+
+#Time Complexity: O(log n)
