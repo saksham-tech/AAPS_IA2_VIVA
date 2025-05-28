@@ -14,4 +14,4 @@ def dfs(node, visited=set()):
             dfs(nei, visited)
 
 dfs(2)
-
+#Time Complexity: O(V + E)
