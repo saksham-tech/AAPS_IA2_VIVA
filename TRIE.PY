@@ -21,6 +21,7 @@ class Trie:
             node = node.children[ch]
         return node.end
 
+#Time Complexity: O(L)
 trie = Trie()
 for word in ["apple", "app", "bat", "ball"]:
     trie.insert(word)
