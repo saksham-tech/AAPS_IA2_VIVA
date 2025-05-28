@@ -31,5 +31,5 @@ print("\nPreorder traversal:")
 preorder(root)
 print("\nPostorder traversal:")
 postorder(root)
-        
+#Time Complexity: O(n)
 
