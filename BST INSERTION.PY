@@ -22,3 +22,5 @@ root = None
 for val in [5, 3, 7, 2, 4, 6, 8]:
     root = insert(root, val)
 inorder(root)
+
+#Time Complexity: O(log n)
