@@ -12,3 +12,6 @@ def bfs(start):
             queue.extend(graph[node])
 
 bfs(2)
+Time Complexity: O(V + E)
+
+
