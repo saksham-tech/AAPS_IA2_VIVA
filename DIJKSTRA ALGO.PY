@@ -21,3 +21,5 @@ def dijkstra(n, edges, start):
     return dist
 
 print(dijkstra(4, [[0,1,4], [0,2,1], [2,1,2], [1,3,1], [2,3,5]], 0))
+
+#Time Complexity: O((V+E)logV)
